@@ -1,4 +1,3 @@
-<%@ page import="entity.Player" %><%--
   Created by IntelliJ IDEA.
   User: Максим
   Date: 05.06.2024
@@ -12,43 +11,17 @@
     <title>Title</title>
 </head>
 <body>
-<h3>${requestScope.questionText}</h3>
-<form class="form-horizontal" method="get" action="quest-servlet">
     <fieldset>
         <div class="form-group">
             <div class="col-md-4">
-                <button id="idcAnswer" name="cAnswer" class="btn btn-primary">${requestScope.correctAnswer}</button>
             </div>
         </div>
 
-    </fieldset>
-</form>
-<form class="form-horizontal" action="endGame.jsp">
-    <fieldset>
         <div class="form-group">
             <div class="col-md-4">
-                <button id="idwAnswer" name="wAnswer" class="btn btn-primary">${requestScope.wrongAnswer}</button>
             </div>
         </div>
     </fieldset>
-    <br>
-    <br>
-
 </form>
-<p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <b>Имя Игрока:${requestScope.name}</b>
-    <br>
-    <b>Количество сыгранных игр: ${requestScope.gameCount}</b>
-</p>
 </body>
 </html>
-
