@@ -15,7 +15,7 @@
 <h2>ОЙ!</h2>
 <br>
 <br>
-<p>Роковая ошибка, стоит попробовать еще раз</p>
+<p>Стоит попробовать еще раз</p>
 <img src=pictures/GameLose.png>
 <form class="form-horizontal" method="get" action="quest-servlet">
     <fieldset>

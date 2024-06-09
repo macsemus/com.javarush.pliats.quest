@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Максим
-  Date: 07.06.2024
-  Time: 17:32
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,14 +7,13 @@
 </head>
 <body>
 <h2>Поздравляем!</h2>
-<p>Всем очень понравилось!</p>
-<p>Оказалось, что все происходящее было розыгрышем и вас отпустили.</p>
+<p>У вас получилось! В скором времени ваше блюдо будут приезжать попробовать со всего региона Канто</p>
 <img src=pictures/GameWin.png>
 <form class="form-horizontal" method="get" action="quest-servlet">
     <fieldset>
         <div class="form-group">
             <div class="col-md-4">
-                <button id="idcAnswer" name="rAnswer" class="btn btn-primary">Попробовать еще раз</button>
+                <button id="idcAnswer" name="rAnswer" class="btn btn-primary">Приготовлю-ка еще разок!</button>
             </div>
         </div>
 
